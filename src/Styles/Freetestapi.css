@@ -1,0 +1,52 @@
+/* FreeTestAPI.css */
+
+.free-test-api-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  margin-top: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.api-list {
+  margin-top: 20px;
+}
+
+.api-list h2 {
+  text-align: center;
+}
+
+.api-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.api-list li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+}
