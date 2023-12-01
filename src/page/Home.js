@@ -8,7 +8,7 @@ const Home = (props) => {
       <h2 className="home-title">Welcome to API Explorer</h2>
       <div className="api-grid">
         <div className="api-item">
-          <h3 className="api-heading">JSON Placeholder</h3>
+          <h3 className="api-heading1">JSON Placeholder</h3>
           <p className="api-description">
             Explore the JSON Placeholder API with sample data.
           </p>
@@ -19,17 +19,9 @@ const Home = (props) => {
             Explore JSON Placeholder API
           </Link>
         </div>
+
         <div className="api-item">
-          <h3 className="api-heading">Mock API</h3>
-          <p className="api-description">
-            Experience the Mock API for testing and development.
-          </p>
-          <Link to="/mockapi" className="api-link mock-api-link">
-            Explore Mock API
-          </Link>
-        </div>
-        <div className="api-item">
-          <h3 className="api-heading">Mock Fake API</h3>
+          <h3 className="api-heading1">Mock Fake API</h3>
           <p className="api-description">
             Dive into the Mock Fake API for realistic mock data.
           </p>
@@ -38,16 +30,7 @@ const Home = (props) => {
           </Link>
         </div>
         <div className="api-item">
-          <h3 className="api-heading">Dummy API</h3>
-          <p className="api-description">
-            Explore the Dummy API for placeholder information.
-          </p>
-          <Link to="/dummyapi" className="api-link dummy-api-link">
-            Explore Dummy API
-          </Link>
-        </div>
-        <div className="api-item">
-          <h3 className="api-heading">Free Test API</h3>
+          <h3 className="api-heading1">Free Test API</h3>
           <p className="api-description">
             Access the Free Test API for testing purposes.
           </p>
@@ -56,7 +39,17 @@ const Home = (props) => {
           </Link>
         </div>
         <div className="api-item">
-          <h3 className="api-heading">Dinsser Mock API</h3>
+          <h3 className="api-heading1">Dummy API</h3>
+          <p className="api-description">
+            Explore the Dummy API for placeholder information.
+          </p>
+          <Link to="/dummyapi" className="api-link dummy-api-link">
+            Explore Dummy API
+          </Link>
+        </div>
+
+        <div className="api-item">
+          <h3 className="api-heading1">Dinsser Mock API</h3>
           <p className="api-description">
             Explore the Dinsser Mock API for dynamic mock data.
           </p>
