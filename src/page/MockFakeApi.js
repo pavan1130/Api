@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/MockFakeApi.css";
 import Navbar from "./Navbar";
+import { Link } from "react-router-dom";
 
 export default function MockFakeApi() {
   return (
@@ -41,11 +42,25 @@ export default function MockFakeApi() {
                 apps. Therefore, we will start out by using some endpoints
                 providing a fake JSON API for users.
               </p>
-
+              <p>
+                URL:{" "}
+                <Link>
+                  {" "}
+                  https://mocki.io/v1/d4867d8b-b5d5-4a48-a4ab-79131b5809b8
+                </Link>
+              </p>
               <h4 className="api-subheading">List users</h4>
               <p className="api-description">
                 A simple list of users. Call the endpoint we have prepared below
                 to get started.
+              </p>
+              <p>
+                {" "}
+                URL:{" "}
+                <Link>
+                  {" "}
+                  https://mocki.io/v1/d4867d8b-b5d5-4a48-a4ab-79131b5809b8
+                </Link>
               </p>
             </div>
           </section>

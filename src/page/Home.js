@@ -21,12 +21,12 @@ const Home = (props) => {
         </div>
 
         <div className="api-item">
-          <h3 className="api-heading1">Mock Fake API</h3>
+          <h3 className="api-heading1">Mock API</h3>
           <p className="api-description">
-            Dive into the Mock Fake API for realistic mock data.
+            Dive into the Mock API for realistic mock data.
           </p>
           <Link to="/mockfakeapi" className="api-link mock-fake-api-link">
-            Explore Mock Fake API
+            Explore Mock API
           </Link>
         </div>
         <div className="api-item">
@@ -49,12 +49,12 @@ const Home = (props) => {
         </div>
 
         <div className="api-item">
-          <h3 className="api-heading1">Dinsser Mock API</h3>
+          <h3 className="api-heading1">Manage My Mock </h3>
           <p className="api-description">
-            Explore the Dinsser Mock API for dynamic mock data.
+            Explore the Manage My Mock API for dynamic mock data.
           </p>
           <Link to="/dinssermockapi" className="api-link dinsser-mock-api-link">
-            Explore Dinsser Mock API
+            Explore Manage My Mock
           </Link>
         </div>
       </div>

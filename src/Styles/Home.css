@@ -29,8 +29,8 @@
   transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 .api-item:hover {
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Increase box-shadow on hover */
-  transform: translateY(-4px); /* Add a slight upward lift on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
 }
 
 .api-heading1 {

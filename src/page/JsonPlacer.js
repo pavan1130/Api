@@ -2,7 +2,6 @@
 import React from "react";
 import "../Styles/JsonPlacer.css";
 import Navbar from "./Navbar";
-
 export default function JsonPlaceholder() {
   return (
     <>
